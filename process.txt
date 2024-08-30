@@ -6,4 +6,16 @@ Flask no es asyncronic. FastAPI es asyncrono y high performance. Tiene todo basi
 
 Flask tiene autenticacion, importante para ver si puedo hacer basic auth.
 
+No voy a usar entorno virtual por una feature de un test, pero para aplicar en futuro virtual environment.
+Para crear environment en la carpeta del proyecto crear .venv
 
+
+Ya en produccion:
+    If another program is already using port 5000, you’ll see OSError: [Errno 98] or OSError: [WinError 10013] when the server tries to start. See Address already in use for how to handle that.
+
+
+
+
+#Datos:
+    f-string significa "formatted string" y no "function string".
+    Es una característica de Python que permite incluir variables y expresiones directamente dentro de una cadena de texto utilizando {}.
