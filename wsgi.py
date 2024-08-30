@@ -6,8 +6,18 @@
 # ? Cuestionamiento, utilizar o no?
 # TODO : Cosas para hacer eventualmente.
 
+
+# * Importaciones
 from flask import Flask
+
+# TODO from markupsafe import escape
+# TODO from auth import basic_auth
+
+# * App
 app = Flask(__name__)
 @app.route("/")
-def hello_world():
-    return f"<p>Hello, World! How you doin?</p>"
+def mainApp():
+    return f"<p>Ejercicio BackEND RD</p>"
+if __name__ == '__main__':
+    app.run(debug = True)
+
