@@ -1,1 +1,9 @@
 Empezando ejercicio.
+
+Empezando el proyecto voy a aprender y utilizar Flask, porque en comparacion a Django y FastAPI es mas simple y rapido y debo hacer esta feature lo antes posible. De haber tenido mas tiempo disponible seguramente hubiese intentado hacerlo con FastAPI. Django tiene mas features y en un futuro tendre que aprenderlo pero no es el momento
+
+Flask no es asyncronic. FastAPI es asyncrono y high performance. Tiene todo basicamente, validacion de datos y documentacion automatica con AI, utilizable para highperformance y escalabilidad. Django es lento pero util para apps grandes de muchas features te ahorra tons of time, ademas tiene ORL (object relational mapping).
+
+Flask tiene autenticacion, importante para ver si puedo hacer basic auth.
+
+
