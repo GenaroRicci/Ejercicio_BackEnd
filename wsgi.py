@@ -11,7 +11,7 @@
 from flask import Flask
 
 # TODO from markupsafe import escape
-# TODO from auth import basic_auth
+# TODO from authentication import basic_auth
 
 # * App
 app = Flask(__name__)
