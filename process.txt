@@ -19,3 +19,54 @@ Ya en produccion:
 #Datos:
     f-string significa "formatted string" y no "function string".
     Es una característica de Python que permite incluir variables y expresiones directamente dentro de una cadena de texto utilizando {}.
+
+    
+#Metodos necesarios y/o utiles:
+
+    Por ejemplo, el método upper toma una cadena y devuelve una nueva cadena con
+    todas las letras en mayúscula:
+    En vez de la sintaxis de función upper(word), éste utiliza la sintaxis de método
+    word.upper().
+    >>> palabra = 'banana'
+    >>> nueva_palabra = palabra.upper()
+    >>> print(nueva_palabra)
+    BANANA
+
+    Una tarea común es eliminar los espacios en blanco (espacios, tabs, o nuevas líneas)
+    en el inicio y el final de una cadena usando el método strip:
+    >>> linea = ' Aquí vamos '
+    >>> linea.strip()
+    'Aquí vamos'
+
+    Algunos métodos como startswith devuelven valores booleanos.
+    >>> linea = 'Que tengas un buen día'
+    >>> linea.startswith('Que')
+    True
+    >>> linea.startswith('q')
+    False
+    Puedes notar que startswith requiere que el formato (mayúsculas y minúsculas)
+    coincida, de modo que a veces tendremos que tomar la línea y cambiarla completamente a minúsculas antes de hacer la verificación, utilizando el método lower.
+    >>> linea = 'Que tengas un buen día'
+    >>> linea.startswith('q')
+    False
+    >>> linea.lower()
+    'que tengas un buen día'
+    >>> linea.lower().startswith('q')
+    True
+
+    Ejercicio 5: Toma el siguiente código en Python que almacena una cadena:
+    str = 'X-DSPAM-Confidence:0.8475'
+    Utiliza find y una parte de la cadena para extraer la porción de la cadena
+    después del carácter dos puntos y después utiliza la función float para
+    convertir la cadena extraída en un número de punto flotante.
+    80 CHAPTER 6. CADENAS
+    Ejercicio 6: Lee la documentación de los métodos de cadenas en
+    https://docs.python.org/library/stdtypes.html#string-methods Quizá
+    quieras experimentar con algunos de ellos para asegurarte de entender
+    como funcionan. strip y replace son particularmente útiles.
+    La documentación usa una sintaxis que puede ser confusa. Por ejemplo, en find(sub[, start[, end]]), los corchetes indican argumentos opcionales. De modo que sub es requerido, pero start es opcional, y si se
+    incluye start, entonces end es opcional.
+
+    
+
+

@@ -6,7 +6,6 @@
 # ? Cuestionamiento, utilizar o no?
 # TODO : Cosas para hacer eventualmente.
 
-
 # * Importaciones
 from flask import Flask
 
